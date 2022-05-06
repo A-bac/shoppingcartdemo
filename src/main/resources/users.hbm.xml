@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.example.shoppingcartdemo.Entity.users" table="tbl_cartusers">
+        <id name="userID">
+            <generator class="assigned"></generator>
+        </id>
+
+        <property name="userName"></property>
+        <property name="userPass"></property>
+    </class>
+</hibernate-mapping>
